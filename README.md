@@ -20,8 +20,6 @@ $(SolutionDir)Libs\cocos2d-x\cocos\platform\third_party
 $(SolutionDir)Libs\cocos2d-x\cocos\platform\third_party\win32
 $(SolutionDir)Libs\cocos2d-x\cocos\platform\third_party\win32\OGLES
 $(SolutionDir)Libs\cocos2d-x\extensions
-
-
 ```
 
 But if you have the framework in your project, read the framework wiki
@@ -29,7 +27,9 @@ But if you have the framework in your project, read the framework wiki
 For using this api you need:
 
 Knowledge of hooking, of C++ and Cocos
+
 Visual Studio Community 2019
+
 Geometry Dash 2.113
 
                                        
