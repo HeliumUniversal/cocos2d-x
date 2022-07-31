@@ -10,11 +10,10 @@ Create a DLL Project on Visual Studio Community 2019
 Download the latest version and unzip it (in my case i unzip it on a folder called Libs in my project)
 
 Add those Include directories to the project 
-``` $(SolutionDir)Libs\cocos2d-x\cocos
+```$(SolutionDir)Libs\cocos2d-x\cocos
 $(SolutionDir)Libs\cocos2d-x\cocos\include
- $(SolutionDir)Libs\cocos2d-x\cocos\kazmath\include
-  $(SolutionDir)Libs\cocos2d-x\cocos\platform   
-
+$(SolutionDir)Libs\cocos2d-x\cocos\kazmath\include
+$(SolutionDir)Libs\cocos2d-x\cocos\platform   
 $(SolutionDir)Libs\cocos2d-x\cocos\platform\win32
 $(SolutionDir)Libs\cocos2d-x\cocos\platform\third_party                                           
 $(SolutionDir)Libs\cocos2d-x\cocos\platform\third_party\win32
